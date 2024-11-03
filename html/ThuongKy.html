@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px auto;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: rgb(219, 196, 196);
+        }
+        .wrapper{
+            width: 960px;
+            height: 500px;
+            border: 1px solid black;
+            margin: 10px;
+        }
+        .headache img{
+        width: 960px;
+        height: 100px;
+        position: absolute;
+
+        }
+        .headache nav{
+            width: 100%;
+            height: 50px;
+            color: white;
+            position: relative;
+            text-shadow: 5px 10px 2x rgb(235, 235,118);
+            font-style:italic ;
+            text-align: center;
+            word-spacing: 10px;
+            line-height: 70px;
+            position: relative;
+        }
+
+        .headache header{
+            width: 100%;
+            height: 50px;
+            padding: 10px;
+            padding-left: 20px;
+            font-weight: bolder;
+            display: inline-flex;
+            gap: 20px;
+            justify-content: space-around;
+            position: relative;
+        }
+        .headache header li{
+            list-style-type: none;
+            display:table;
+            height: 35px;
+            width: 150px;
+            border: 1px solid black;
+            border-radius: 17px 17px 0 0;
+            background-color: rgb(255,215,221);
+        }
+        .headache header li a{
+            text-decoration: none;
+            margin: 20px;
+            text-align: center;
+            color: rgb(102,19,74);
+            font-weight: bold;
+        }
+        .content{
+            width: 100%;
+            height: 350px;
+            border: 1px solid black;
+        }
+        .left{
+            width: 70%;
+            height: 350px;
+            float: left;
+            background: radial-gradient(circle,rgb(248,246,246),rgba(233,198,170,0.815));
+            position: relative;
+        }
+        .left h1{
+            width: 50%;
+            color: red;
+            padding: 20px;
+        }
+        .left_1{
+            width: 50%;
+            height: 280px;
+            
+            float: left;
+            padding-left: 50px;
+        }
+        .left_1 ol{
+            font-size: 25px;
+            color: rgba(255,123,0,0.822);
+            font-weight: bold;
+            opacity: 0.9;
+            font-style: italic;
+            margin-top: 0px;
+            text-shadow: 5px 5px 5px;
+
+        }
+        .left_1 ol li{
+            margin-bottom: 20px;
+        }
+        .left_2{
+            width: 45%;
+            height: 250px;
+            border: 1px solid black;
+            float: left;
+            border-radius: 10px;
+            padding-left:10px ;
+            box-shadow: 5px 5px 5px rgba(128,110,110,0.6);
+            position: relative;
+        }
+        .text_B{
+            position: absolute;
+            top: -20px;
+            transform: translateX(0%);
+            padding: 0 10px;
+            color: black;
+            font-size: 20px;
+        }
+        form input[type="text"],form input[type="email"]{
+            padding: 4px;
+            border-radius:10px ;
+            width: 80%;
+        }
+        form input[type="tel"]{
+            padding: 4px;
+            border-radius: 10px;
+            width: 60%;
+        }
+        form span{
+            margin-left: 80px;
+        }
+        form span input{
+            padding: 1px;
+            width: 20%;
+            border-radius: 8px;
+        }
+        .right{
+            width: 30%;
+            height: 350px;
+            float: left;
+            border: 2px solid black;
+            background:radial-gradient(circle,rgb(255,255,255),rgba(219,183,153,0.815));
+        }
+        .right #frm{
+            position: relative;
+            top: 10px;
+        }
+        .right #frm #search{
+            width: 55%;
+            padding: 0.7px;
+            border-radius: 0;
+        }
+        .right #frm #go{
+            padding: 3px;
+            width: 13%;
+            border-radius: 90%;
+            background-color: rgb(26,176,245);
+            color: aliceblue;
+        }
+        .right h3{
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed;
+            color: rgb(158,28,158);
+        }
+        .right img{
+            margin: 2%;
+            transition: transform 1s;
+            transform-style: preserve-3d;
+        }
+        .right img:hover{
+            transform: rotateY(180deg);
+        }
+        footer{
+            position: relative;
+        }
+        footer #ft_1{
+            padding-left: 30px;
+            word-spacing: 5px;
+            margin-top: 5px;
+        }
+        footer #ft_2{
+            float: right;
+            margin-top: -20px;
+        }
+    </style>
+</head>
+<body>
+    <DIV>
+        <div class="wrapper">
+            <div class="headache">
+                <img src="../img/beach.jpg" alt="#">
+                <nav>
+                    <h1>Nha Trang Ancient Town - The most beautiful ancient city in Asia</h1>
+                </nav>
+                <header>
+                    <li><a href="ThuongKy.html">Du lich</a></li>
+                    <li><a href="ThuongKy.html"></a>Dich Vu</li>
+                    <li><a href="ThuongKy.html"></a>Gioi Thieu</li>
+                    <li><a href="ThuongKy.html"></a>Lien He</li>
+                    <li><a href="ThuongKy.html"></a>Ho tro</li>
+                </header>
+            </div>
+            <div class="content">
+                <section class="left">
+                    <h1>INTRODUCTION</h1>
+                    <article class="left_1">
+                        <ol>
+                            <li>Ẩm thực truyền thống</li>
+                            <li>Trò chơi dân gian</li>
+                            <li>Kịch cổ</li>
+                            <li>Ảo thuật</li>
+                            <li>Phòng chiếu phim 3D</li>
+                        </ol>
+                    </article>
+                    <article class="left_2">
+                        <span class="text_B">Thông tin đăng ký</span>
+                        <form action="" method="post">
+                            <label for="name">Họ tên:</label><br>
+                            <input type="text" name="name" id="name" placeholder="Tên của ban"><br>
+                            <label for="eamil">Email:</label><br>
+                            <input type="text" id="eamil" placeholder="Email " name="email"><br>
+                            <label for="tel">Số điện thoại:</label><br>
+                            <input type="tel" id="tel" name="tel" placeholder="Số điện thoại"><br>
+
+                            <label for="gender">Giới tính:</label><br>
+                            <input type="radio" name="male" id="gender" value="male">
+                            <label for="male">Nam</label>
+                            <input type="radio" name="female" id="gender" value="female">
+                            <label for="female">Nữ</label><br><br>
+                            <span>
+                                <input type="submit" name="submit" id="submit">
+                                <input type="reset" name="reset" id="reset">
+                            </span>
+                        </form>
+                    </article>
+                </section>
+                <aside class="right">
+                    <form action="" method="get" id="frm">
+                        <label for="search">SEARCH:</label>
+                        <input type="text" id="search" name="search" placeholder="search here">
+                        <button type="button" id="go">Go</button>
+                    </form>
+                    <h3>View</h3>
+                    <img src="../img/beach and people.jpg" alt="#" id="pic_1" width="95%" height="30%">
+                    <h3>Restaurent</h3>
+                    <img src="../img/restaurant.jpg" alt="#" id="pic_2" width="95%" height="30%">
+                </aside>
+            </div>
+            <footer>
+                <h4 id="ft_1">22721141 - Xú Trường Năm</h4>
+                <h4 id="ft_2">DHHTTT18B - Khoa Công Nghệ Thông tin</h4>
+            </footer>
+        </div>
+    </DIV>
+</body>
+</html>
